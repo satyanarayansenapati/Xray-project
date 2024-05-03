@@ -271,3 +271,302 @@ x==========x]
 [2024-05-02 11:37:42,337 : INFO : stage_04_model_evaluation : >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-03 08:07:14,002 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.38:8080]
+[2024-05-03 08:07:14,004 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-05-03 08:07:31,627 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 08:07:31,647 : INFO : _internal : 192.168.1.38 - - [03/May/2024 08:07:31] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 08:07:31,742 : INFO : _internal : 192.168.1.38 - - [03/May/2024 08:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-05-03 08:07:37,194 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 08:07:37,194 : INFO : _internal : 192.168.1.38 - - [03/May/2024 08:07:37] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 08:07:58,848 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 08:07:58,850 : INFO : _internal : 127.0.0.1 - - [03/May/2024 08:07:58] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 08:07:58,954 : INFO : _internal : 127.0.0.1 - - [03/May/2024 08:07:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-05-03 10:32:52,330 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.38:8080]
+[2024-05-03 10:32:52,330 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-05-03 10:33:14,954 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:33:15,006 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:33:15] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:33:15,048 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:33:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-05-03 10:34:33,773 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:33,773 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:33] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:34:34,738 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:34,744 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:34] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:34:35,683 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:35,693 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:35] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:34:36,411 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:36,418 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:36] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:34:36,713 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:36,723 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:36] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:34:36,969 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:34:36,975 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:34:36] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:54,127 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:54,138 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:54] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:55,151 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:55,161 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:55] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:55,984 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:55,995 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:55] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:56,303 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:56,308 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:56] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:57,108 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:57,119 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:57] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:57,412 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:57,419 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:57] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:57,700 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:57,708 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:57] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:57,899 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:57,908 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:57] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:36:58,113 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:36:58,121 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:36:58] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:41:20,145 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.38:8080]
+[2024-05-03 10:41:20,145 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-05-03 10:42:06,614 : ERROR : app : Exception on / [GET]]
+Traceback (most recent call last):
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "M:\Software\Anaconda\envs\xray\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-05-03 10:42:06,621 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:42:06] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-05-03 10:42:06,732 : INFO : _internal : 127.0.0.1 - - [03/May/2024 10:42:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
